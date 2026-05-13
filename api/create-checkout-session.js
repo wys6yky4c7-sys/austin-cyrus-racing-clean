@@ -1,4 +1,6 @@
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+const stripeSecretKey =
+  process.env.STRIPE_SECRET_KEY || process.env.Stripe_Secret_Key;
+const stripe = require("stripe")(stripeSecretKey);
 
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {
@@ -11,7 +13,7 @@ module.exports = async function handler(req, res) {
       req.headers.origin ||
       `https://${req.headers["x-forwarded-host"] || req.headers.host}`;
 
-    if (!process.env.STRIPE_SECRET_KEY) {
+    if (!stripeSecretKey) {
       return res.status(500).json({ error: "Stripe is not configured." });
     }
 
