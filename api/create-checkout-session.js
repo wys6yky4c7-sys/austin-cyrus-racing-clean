@@ -38,8 +38,8 @@ module.exports = async function handler(req, res) {
           }))
         ),
       },
-      success_url: `${origin}/?checkout=success`,
-      cancel_url: `${origin}/`,
+    success_url: "https://austin-cyrus-racing.vercel.app/success",
+cancel_url: "https://austin-cyrus-racing.vercel.app",
     });
 
     res.status(200).json({ url: session.url });
