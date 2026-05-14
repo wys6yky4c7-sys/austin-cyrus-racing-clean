@@ -627,6 +627,7 @@ hero: {
   backgroundSize: "cover",
   backgroundPosition: "center center",
   backgroundRepeat: "no-repeat",
+  backgroundAttachment: "scroll",
   },
 
   heroSmall: {
