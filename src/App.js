@@ -611,21 +611,22 @@ const styles = {
     cursor: "pointer",
     fontFamily: "impact",
   },
+hero: {
+  minHeight: "100vh",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  textAlign: "center",
+  padding: 20,
 
-  hero: {
-    minHeight: "100vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-    padding: 20,
-    backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)), url('https://i.imgur.com/jD6uWnr.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center 20%",
-    backgroundRepeat: "no-repeat",
-    backgroundAttachment: "fixed",
+  backgroundColor: "#000",
+  backgroundImage:
+    "url(https://i.imgur.com/jD6uWnr.jpg)",
+
+  backgroundSize: "cover",
+  backgroundPosition: "center center",
+  backgroundRepeat: "no-repeat",
   },
 
   heroSmall: {
