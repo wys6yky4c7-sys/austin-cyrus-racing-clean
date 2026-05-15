@@ -622,10 +622,15 @@ hero: {
 
   backgroundColor: "#000",
   backgroundImage: "url(https://i.imgur.com/jD6uWnr.jpg)",
+
   backgroundSize: "cover",
-  backgroundPosition: "center center",
+
+  backgroundPosition: "center 25%",
+
   backgroundRepeat: "no-repeat",
-  backgroundAttachment: "scroll",
+
+  backgroundAttachment:
+    window.innerWidth > 768 ? "fixed" : "scroll",
 },
 
   heroSmall: {
