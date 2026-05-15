@@ -352,7 +352,7 @@ export default function App() {
 
       <section style={styles.hero}>
         <p style={styles.heroSmall}>Official Merchandise</p>
-       <h1 style={styles.heroTitle}>AUSTIN CYRUS RACING 1 </h1>
+       <h1 style={styles.heroTitle}>AUSTIN CYRUS RACING</h1>
 
         <a href="#merch" style={styles.heroButton}>
           SHOP MERCH
@@ -612,7 +612,7 @@ const styles = {
     fontFamily: "impact",
   },
 hero: {
-  minHeight: "100vh",
+  minHeight: "100svh",
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
@@ -621,11 +621,11 @@ hero: {
   padding: 20,
 
   backgroundColor: "#000",
-backgroundImage: "url(https://i.imgur.com/jD6uWnr.jpg)",
-backgroundSize: "auto 100%",
-backgroundPosition: "center top",
-backgroundRepeat: "no-repeat",
-backgroundAttachment: "scroll",
+  backgroundImage: "url(https://i.imgur.com/jD6uWnr.jpg)",
+  backgroundSize: "cover",
+  backgroundPosition: "center center",
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "scroll",
 },
 
   heroSmall: {
