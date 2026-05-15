@@ -621,14 +621,12 @@ hero: {
   padding: 20,
 
   backgroundColor: "#000",
-  backgroundImage:
-    "url(https://i.imgur.com/jD6uWnr.jpg)",
-
-  backgroundSize: "cover",
-  backgroundPosition: "center center",
-  backgroundRepeat: "no-repeat",
-  backgroundAttachment: "scroll",
-  },
+backgroundImage: "url(https://i.imgur.com/jD6uWnr.jpg)",
+backgroundSize: "auto 100%",
+backgroundPosition: "center top",
+backgroundRepeat: "no-repeat",
+backgroundAttachment: "scroll",
+},
 
   heroSmall: {
     color: "#f8ff00",
