@@ -352,7 +352,7 @@ export default function App() {
 
       <section style={styles.hero}>
         <p style={styles.heroSmall}>Official Merchandise</p>
-       <h1 style={styles.heroTitle}>AUSTIN CYRUS RACING TEST</h1>
+       <h1 style={styles.heroTitle}>AUSTIN CYRUS RACING 1</h1>
 
         <a href="#merch" style={styles.heroButton}>
           SHOP MERCH
